@@ -1,0 +1,11 @@
+1. Why CNNs outperform ANNs for image classification**
+
+CNNs perform better than ANNs for image classification because they use **convolution and pooling layers** that automatically extract spatial features such as edges, textures, and patterns. CNNs preserve the **spatial structure** of images, reduce the number of parameters, and avoid overfitting. In contrast, ANNs treat images as flat vectors and lose all spatial information, making them less effective at understanding visual patterns.
+
+2. How activation functions affect the learning process**
+
+Activation functions introduce **non-linearity** into a neural network, allowing it to learn complex relationships in the data. Without activation functions, a network would behave like a purely linear model and fail to learn real-world patterns. Functions like ReLU also help avoid vanishing gradients and speed up training, enabling deep networks to learn effectively.
+
+3. Why preprocessing is important for tasks like sentiment analysis**
+
+Text preprocessing removes noise and standardizes the input, allowing NLP models to focus on meaningful information. Steps like tokenization, stopword removal, and lemmatization reduce irrelevant words, normalize variations of the same word, and improve data quality. This helps sentiment analysis models better identify patterns in text and increases accuracy.
